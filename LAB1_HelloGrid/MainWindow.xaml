@@ -1,0 +1,28 @@
+﻿<Window x:Class="LAB1_HelloGrid.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LAB1_HelloGrid"
+        mc:Ignorable="d"
+        Title="Grid - Deleopgave 3" Height="450" Width="800">
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="0.50*"/>
+			<ColumnDefinition Width="0.50*"/>
+
+		</Grid.ColumnDefinitions>
+
+		<Grid.RowDefinitions>
+			<RowDefinition/>
+			<RowDefinition/>
+
+		</Grid.RowDefinitions>
+
+		<Button Width="400" Background="LightGray" Grid.Column="0" Grid.Row="0" Margin="0,0,30,0">Hej 1</Button>
+		<Button Background="LightGreen" Grid.Row="0" Margin="0,54,31,71" Grid.Column="1">Hej 2</Button>
+		<Button Height="25" Width="40" Background="LightBlue" Grid.Column="0" Grid.Row="1" Margin="0,0,30,0">Hej 3</Button>
+		<Button Background="Purple" Grid.Column="1" Grid.Row="1" Margin="0,96,335,50">Hej 4</Button>
+
+	</Grid>
+</Window>
